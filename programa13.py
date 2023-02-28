@@ -1,0 +1,25 @@
+person = {
+    'name': 'nico',
+    'last_name' : 'molina',
+    'langs': ['python', 'javascript'],
+    'age':99
+}
+
+print(person)
+
+person['name'] = 'santi'
+person['age'] -= 50
+person['langs'].append('rust')
+print(person)
+
+del person['last_name']
+person.pop('age')
+
+print(person)
+
+
+print('keys')
+print(person.keys())
+
+print('items')
+print(person.items())
